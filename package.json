@@ -8,7 +8,7 @@
   "scripts": {
     "build": "nest build",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
-   "start": "ts-node -r tsconfig-paths/register src/main.ts", /* tawa badaltha haka yekhi khedmet f local ema mch khayba la l build ki yji bech ysir deploiement matsirech*/
+   "start": "ts-node -r tsconfig-paths/register src/main.ts", /* tawa badaltha haka yekhi khedmet f local ema khayfa la l build ki yji bech ysir deploiement matsirech*/
     "start:dev": "nest start --watch",
     "start:debug": "nest start --debug --watch",
     "start:prod": "node dist/main",
