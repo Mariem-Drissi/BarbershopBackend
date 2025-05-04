@@ -8,7 +8,7 @@
   "scripts": {
     "build": "nest build",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
-    "start": "npm run build && node dist/main",
+   "start": "ts-node -r tsconfig-paths/register src/main.ts", /* tawa badaltha haka yekhi khedmet f local ema mch khayba la l build ki yji bech ysir deploiement matsirech*/
     "start:dev": "nest start --watch",
     "start:debug": "nest start --debug --watch",
     "start:prod": "node dist/main",
@@ -22,7 +22,6 @@
     "start:seeder": "ts-node src/seeder.ts"
   },
   "dependencies": {
-    "@nestjs-modules/mailer": "^2.0.2",
     "@nestjs/common": "^11.0.1",
     "@nestjs/config": "^4.0.2",
     "@nestjs/core": "^11.0.1",
@@ -32,7 +31,6 @@
     "@nestjs/typeorm": "^11.0.0",
     "bcrypt": "^5.1.1",
     "dotenv": "^16.5.0",
-    "mjml": "^4.15.3",
     "mysql2": "^3.14.0",
     "nodemailer": "^6.10.1",
     "passport": "^0.7.0",
