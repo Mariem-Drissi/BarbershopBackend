@@ -34,8 +34,8 @@
           },
           attachments: [
             {
-              filename: 'Newsletter.jpg',
-              path: path.join(__dirname, '..', '..', 'assets', 'Newsletter.jpg'), // ✅ Correct path
+              filename: 'Barbershop-0.jpg',
+              path: path.join(__dirname, '..', '..', 'assets', 'Barbershop-0.jpg'), // ✅ Correct path
               cid: 'newsletterImage', // ✅ Matches the cid in your template
             },
           ],
